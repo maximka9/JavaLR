@@ -1,0 +1,17 @@
+com\javalar\controller\DepartmentController.class
+com\javalar\controller\AddDepartmentController.class
+com\javalar\controller\AddEmployeeFormController.class
+com\javalar\model\Department_.class
+com\javalar\controller\DeleteEmployeeController.class
+com\javalar\controller\DeleteDepartmentController.class
+com\javalar\service\DepartmentService.class
+com\javalar\controller\EditEmployeeController.class
+com\javalar\model\Employee_.class
+com\javalar\controller\AddDepartmentFormController.class
+com\javalar\controller\EditDepartmentController.class
+com\javalar\controller\EmployeeController.class
+com\javalar\service\EmployeeService.class
+com\javalar\model\Department.class
+com\javalar\controller\MainController.class
+com\javalar\controller\AddEmployeeController.class
+com\javalar\model\Employee.class
