@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee</title>
+</head>
+<body>
+<h1>Edit Employee</h1>
+
+<form th:action="@{/employees/edit/{id}(id=${employee.id})}" method="post">
+    <input type="hidden" name="id" th:value="${employee.id}">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" th:value="${employee.name}" required>
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" th:value="${employee.age}" required>
+    <br><br>
+
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary" th:value="${employee.salary}" required>
+    <br><br>
+
+    <label for="department">Department:</label>
+    <select id="department" name="department.id" required>
+        <option th:each="department : ${departments}"
+                th:value="${department.id}"
+                th:text="${department.name}"
+                th:selected="${department.id == employee.department.id}"></option>
+    </select>
+    <br><br>
+
+    <button type="submit">Update Employee</button>
+</form>
+
+<a href="/employees">Back to Employee List</a>
+</body>
+</html>
