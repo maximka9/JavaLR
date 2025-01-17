@@ -1,4 +1,14 @@
-Функционал:
+Таблица для изменений:
+
+![image](https://github.com/user-attachments/assets/35e9c508-43d9-4128-9a6c-0cc38741d196)
+
+Сообщение об изменении
+
+![image](https://github.com/user-attachments/assets/96dd8c85-0866-4b53-a0bc-144af573d64b)
+
+![image](https://github.com/user-attachments/assets/0a4110a7-84f1-4e5f-b3ce-488be962450a)
+
+Остальной Функционал остался от ЛР2:
 
 ![image](https://github.com/user-attachments/assets/8dc7b947-a07f-4c11-bc8a-49e4299b4ba9)
 
